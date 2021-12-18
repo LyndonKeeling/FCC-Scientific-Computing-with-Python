@@ -95,12 +95,3 @@ def add_time(start, duration, starting_day = None):
     new_time = str(total_hours) + ":" + total_minutes + " " + meridian + ", " + ending_day + days_later
 
   return new_time
-
-# Test case Examples
-# print(add_time("3:30 PM", "2:12"))
-# print(add_time("11:55 AM", "3:12"))
-# print(add_time("9:15 PM", "5:30"))
-# print(add_time("3:30 PM", "2:12"))
-# print(add_time("8:16 PM", "466:02"))
-# print(add_time("3:30 PM", "2:12", "Monday"))
-# print(add_time("8:16 PM", "466:02", "tuesday"))
